@@ -61,7 +61,7 @@ distribution is useful for defining latency requirements:
  
 From the histogram, here's the cumulative percentage:
 
-![Cummulative percentages](Cummulative-percentage.png)
+![Cumulative percentages](Cumulative-percentage.png)
 
 Interacting with a queing-based system like SharePoint Search, requirements are 
 best phrased (and verified) in terms of percentages and latency. For intance, a 
