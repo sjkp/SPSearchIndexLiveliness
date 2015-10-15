@@ -61,7 +61,7 @@ distribution is useful for defining latency requirements:
  
 From the histogram, here's the cumulative percentage:
 
-![Cummulative percentages](Cummulative.png)
+![Cummulative percentages](Cummulative-percentage.png)
 
 Interacting with a queing-based system like SharePoint Search, requirements are 
 best phrased (and verified) in terms of percentages and latency. For intance, a 
@@ -69,8 +69,8 @@ requirement may be that "80% of the search request must show content no older th
 25 minutes". In principle, we can only get to 100% by accepting an infinite latency.
 
 Queing-based (asynchronous) systems are generally build to scale better than request/
-reply-based (synchronous) systems. Forcing a asynchronous system into synchronous 
-mode generally leads to bad performance.
+reply-based (synchronous) systems. Forcing a asynchronous system to operate in 
+synchronous mode generally leads to bad performance.
 
 How it works
 ------------
