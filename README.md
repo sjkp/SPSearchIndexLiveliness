@@ -65,7 +65,7 @@ From the histogram, here's the cumulative percentage:
 
 Interacting with a queing-based system like SharePoint Search, requirements are 
 best phrased (and verified) in terms of percentages and latency. For intance, a 
-requirement may be that "80% of the search request must show content no older than 
+requirement may be that "80% of search requests must show content no older than 
 25 minutes". 
 
 In principle, we can only get to 100% by accepting an infinite latency. Queing-based 
