@@ -46,7 +46,7 @@ To help diagnose operational issues with search and/or your application, the
 statistics gathered should be imported into a spreadsheet for further processing.
 
 Here's a 24-hour latency over time graph for October 14, 2015. Given that SharePoint
-Online has continous crawl enabled by default, working hour performance isn't ideal:
+Online has continous crawl enabled by default, working hour performance isn't great:
 
 ![Latence over time](Latency-over-time.png)
 
@@ -66,9 +66,10 @@ From the histogram, here's the cumulative percentage:
 Interacting with a queing-based system like SharePoint Search, requirements are 
 best phrased (and verified) in terms of percentages and latency. For intance, a 
 requirement may be that "80% of the search request must show content no older than 
-25 minutes". In principle, we can only get to 100% by accepting an infinite latency.
+25 minutes". 
 
-Queing-based (asynchronous) systems are generally build to scale better than request/
+In principle, we can only get to 100% by accepting an infinite latency. Queing-based 
+(asynchronous) systems are generally build to scale better than request/
 reply-based (synchronous) systems. Forcing a asynchronous system to operate in 
 synchronous mode generally leads to bad performance.
 
