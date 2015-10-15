@@ -7,6 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPSearchIndexLiveliness.Con
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{67DCC88A-D20A-472E-A1EA-6B985F9D3D05}"
 	ProjectSection(SolutionItems) = preProject
+		..\Cummulative-percentage.png = ..\Cummulative-percentage.png
+		..\Histogram.png = ..\Histogram.png
+		..\Latency-over-time.png = ..\Latency-over-time.png
 		..\LICENSE = ..\LICENSE
 		..\README.md = ..\README.md
 	EndProjectSection
